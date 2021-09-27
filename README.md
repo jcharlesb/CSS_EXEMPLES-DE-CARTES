@@ -1,4 +1,4 @@
-# CSS_EXEMPLES-DE-CARTES
+# CSS - EXEMPLES DE CARTES
 
 [LE COURS](https://www.udemy.com/course/faire-de-belles-cartes-en-css/)
 
