@@ -15,7 +15,7 @@ Améliorez vous en CSS
 - Etc …
 
 ---
-## Projet 3 : cartes w/ images PNG
+## Projet 3 : cartes PNG
 
 <img width="1916" alt="Capture d’écran 2021-09-28 à 17 28 01" src="https://user-images.githubusercontent.com/5016747/135118188-86748a2b-6960-48db-bf90-1968203679c4.png">
 
