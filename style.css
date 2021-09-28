@@ -1,2 +1,52 @@
 @import "normalize.css";
 
+*, ::before, ::after {
+	box-sizing : border-box;
+}
+
+body {
+	margin          : 0;
+	padding         : 0;
+	height          : 100vh;
+	background      : rgb(230, 230, 230);
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	font-family     : Poppins, sans-serif;
+}
+
+.movieCard {
+	width         : 800px;
+	height        : 400px;
+	flex-shrink   : 0;
+	background    : #000;
+	color         : #F1F1F1;
+	display       : flex;
+	position      : relative;
+	margin-bottom : 200px;
+	overflow      : hidden;
+	border-radius : calc(1rem * (22/ 16));
+	box-shadow    : 0 calc(1rem * (10 / 16)) calc(1rem * (8 / 16)) calc(1rem * (4 / 16)) rgba(128, 128, 128, .6);
+}
+
+.logoHand {
+	position : absolute;
+	right    : -15px;
+	bottom   : 50px;
+	z-index  : 1;
+}
+
+.logoHand-image {
+	width : 130px;
+}
+
+.movieCover {
+	width      : 40%;
+	height     : 100%;
+	background : url("img/imgMovie.jpg") calc(1rem * (10 / 16)) 1px;
+}
+
+.movieContent {
+	width  : 60%;
+	height : 100%;
+}
