@@ -35,8 +35,9 @@ body {
 	position      : relative;
 }
 
+/*CARD 1*/
 .card:nth-child(1) .gradient img {
-	width     : 440px;
+	width     : 460px;
 	position  : absolute;
 	top       : -135px;
 	left      : -80px;
@@ -74,7 +75,7 @@ body {
 .btnBox-btn {
 	font-family     : Meddon, Poppins, sans-serif;
 	font-size       : calc(1rem * (20 / 16));
-	font-weight     : 400;
+	font-weight     : 500;
 	color           : #FA3939;
 	display         : flex;
 	justify-content : center;
@@ -92,3 +93,56 @@ body {
 	background : #FA3939;
 	color      : #F1F1F1;
 }
+
+/*CARD 2*/
+.card:nth-child(2) .gradient {
+	background : linear-gradient(45deg, #A82143, rgb(240, 156, 176));
+}
+
+.card:nth-child(2) .gradient img {
+	width     : 405px;
+	position  : absolute;
+	top       : -120px;
+	left      : -45px;
+	transform : rotate(20deg);
+}
+
+.card:nth-child(2) .title, .card:nth-child(2) .btnBox-btn {
+	color : #D5073E;
+}
+
+.card:nth-child(2) .btnBox-btn:hover {
+	background : #D5073E;
+	color      : #F1F1F1;
+}
+
+.card:nth-child(2) .btnBox-btn {
+	border : calc(1rem * (1 / 16)) solid #D5073E;
+}
+
+/*CARD 3*/
+.card:nth-child(3) .gradient {
+	background : linear-gradient(45deg, #AB0018, rgb(234, 184, 90));
+}
+
+.card:nth-child(3) .gradient img {
+	width     : 410px;
+	position  : absolute;
+	top       : -20px;
+	left      : -60px;
+	transform : rotate(-10deg);
+}
+
+.card:nth-child(3) .title, .card:nth-child(3) .btnBox-btn {
+	color : #DA3703;
+}
+
+.card:nth-child(3) .btnBox-btn:hover {
+	background : #DA3703;
+	color      : #F1F1F1;
+}
+
+.card:nth-child(3) .btnBox-btn {
+	border : calc(1rem * (1 / 16)) solid #DA3703;
+}
+
