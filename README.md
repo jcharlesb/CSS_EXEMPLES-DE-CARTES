@@ -32,6 +32,7 @@ Améliorez vous en CSS
 ---
 ## Projet 3 : cartes PNG
 
-<img width="1916" alt="Capture d’écran 2021-09-28 à 17 28 01" src="https://user-images.githubusercontent.com/5016747/135118188-86748a2b-6960-48db-bf90-1968203679c4.png">
+<img width="1918" alt="Capture d’écran 2021-09-30 à 09 21 59" src="https://user-images.githubusercontent.com/5016747/135406388-72ad6078-9e52-44f9-af19-4163ecc08783.png">
+
 
 *made by jean-charles bourseau*
