@@ -9,6 +9,7 @@ body {
 	padding         : 0;
 	height          : 100vh;
 	display         : flex;
+	flex-wrap: wrap;
 	justify-content : center;
 	align-items     : center;
 	background      : rgb(207, 207, 207);
@@ -16,7 +17,7 @@ body {
 }
 
 .card {
-	width          : 300px;
+	width          : 320px;
 	height         : 530px;
 	flex-shrink    : 0;
 	background     : #F1F1F1;
@@ -24,7 +25,7 @@ body {
 	display        : flex;
 	flex-direction : column;
 	box-shadow     : 0 calc(1rem * (6 / 16)) calc(1rem * (6 / 16)) rgba(64, 64, 64, .7);
-	margin         : 0 calc(1rem * (60 / 16));
+	margin         : calc(1rem * (60 / 16)) calc(1rem * (60 / 16));
 }
 
 .gradient {
@@ -100,10 +101,10 @@ body {
 }
 
 .card:nth-child(2) .gradient img {
-	width     : 405px;
+	width     : 410px;
 	position  : absolute;
-	top       : -120px;
-	left      : -45px;
+	top       : -125px;
+	left      : -37px;
 	transform : rotate(20deg);
 }
 
@@ -129,8 +130,8 @@ body {
 	width     : 410px;
 	position  : absolute;
 	top       : -20px;
-	left      : -60px;
-	transform : rotate(-10deg);
+	left      : -50px;
+	transform : rotate(-12.5deg);
 }
 
 .card:nth-child(3) .title, .card:nth-child(3) .btnBox-btn {
