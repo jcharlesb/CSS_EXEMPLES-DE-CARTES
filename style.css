@@ -1,1 +1,25 @@
 @import "normalize.css";
+
+*, ::before, ::after {
+	box-sizing : border-box;
+}
+
+body {
+	margin          : 0;
+	padding         : 0;
+	height          : 100vh;
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	font-family     : Poppins, sans-serif;
+}
+
+.gridCards {
+	display         : grid;
+	grid-template   : repeat(3, 200px) / repeat(5, 200px);
+	background-size : cover;
+	background      : url("img/croissant.jpg") 0 160%;
+	position        : relative;
+	box-shadow      : 0 calc(1rem * (6 / 16)) calc(1rem * (8 / 16)) rgba(128, 128, 128, .8);
+	border-radius   : calc(1rem * (6 / 16));
+}
